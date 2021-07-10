@@ -1,13 +1,14 @@
 import { Switch, Route } from "react-router-dom";
-import {Main} from "../pages/main";
+import { Main } from "../pages/main";
+import { Portfolio } from "../pages/portfolio";
+import { NotFound } from "../pages/notFound";
 
 export const Routes: React.FC = () => {
     return (
         <Switch>
-            <Route path="/" component={Main} />
-            {/* <Route path="/about" component={About} />
-            <Route path="/dashboard" component={Dashboard} />
-            <Route component={NotFound} /> */}
+            <Route path="/" exact component={Main} />
+            <Route path="/portfolio" exact component={Portfolio} />
+            <Route component={NotFound} />
         </Switch>
     );
 };

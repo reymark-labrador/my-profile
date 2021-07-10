@@ -14,9 +14,9 @@ export const Menu: React.FC = () => {
             </div>
             <div className="flex justify-center m-auto">
                 <div className="flex flex-col justify-center items-center">
-                    <MenuItem label="Home" link="#"/>
+                    <MenuItem label="Home" link="/"/>
                     <MenuItem label="About" link="#"/>
-                    <MenuItem label="Portfolio" link="#"/>
+                    <MenuItem label="Portfolio" link="/portfolio"/>
                 </div>
             </div>
             
