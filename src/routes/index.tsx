@@ -1,5 +1,4 @@
 import { Switch, Route } from "react-router-dom";
-import App from "../App";
 import {Main} from "../pages/main";
 
 export const Routes: React.FC = () => {

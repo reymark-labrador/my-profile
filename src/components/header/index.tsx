@@ -1,19 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Container } from '../';
 
-export const Header: React.FC = () => {
+import { Container } from '../';
+import { BigHeader } from './big-header';
+import { SmallHeader } from './small-header';
+import { HeaderProps } from '../../interfaces/header.interface';
+
+export const Header: React.FC<HeaderProps> = ({headerType} : HeaderProps) => {
     return (
-        <div className="bg-gray">
+        <div className="bg-gray-900 pt-10">
             <Container>
-                <div className="flex justify-between pt-5">
-                    <div className="text-3xl font-medium">
-                        Hello, i'm
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faBars}/>
-                    </div>
-                </div>
+                {headerType === "big" ? <BigHeader/> : <SmallHeader/>}
             </Container>
         </div>
     );
