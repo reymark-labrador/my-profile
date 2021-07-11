@@ -10,9 +10,9 @@ export const Footer: React.FC = () => {
                     </span>
                     <span>
                         {"Find me on "}
-                        <a href="https://www.linkedin.com/in/reymark-labrador-652370142/" target="_blank" className="text-indigo-400">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/reymark-labrador-652370142/" target="_blank" rel="noreferrer" className="text-indigo-400">Linkedin</a>
                         {" | "}
-                        <a href="https://github.com/mac69" target="_blank" className="text-indigo-400">Github</a>
+                        <a href="https://github.com/mac69" target="_blank" rel="noreferrer" className="text-indigo-400">Github</a>
                     </span>
                     
                 </p>

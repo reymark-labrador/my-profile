@@ -26,7 +26,7 @@ export const Project: React.FC<ProjectProps> = ({title, type, imgSrc, imgTitle, 
                 </div>
             </div>
             <div className="flex flex-col">
-                <img src={imgSrc} title={imgTitle}/>
+                <img src={imgSrc} title={imgTitle} alt=""/>
                 <button className="md:hidden bg-blue-900 text-white py-2 px-12 my-16">
                     read more
                 </button>

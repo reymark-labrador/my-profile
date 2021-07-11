@@ -1,5 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import { Main } from "../pages/main";
+import { AboutMe } from "../pages/about";
 import { Portfolio } from "../pages/portfolio";
 import { NotFound } from "../pages/notFound";
 
@@ -7,6 +8,7 @@ export const Routes: React.FC = () => {
     return (
         <Switch>
             <Route path="/" exact component={Main} />
+            <Route path="/about" exact component={AboutMe} />
             <Route path="/portfolio" exact component={Portfolio} />
             <Route component={NotFound} />
         </Switch>
