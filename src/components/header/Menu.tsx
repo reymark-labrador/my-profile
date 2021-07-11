@@ -7,7 +7,7 @@ export const Menu: React.FC = () => {
         <div className="bg-blue-800 flex flex-col h-screen">
             <div className="pt-10 ">
                 <Container>
-                    <div className="flex justify-end h-16">
+                    <div className="flex justify-end h-8">
                         <CloseButton/>
                     </div>
                 </Container>

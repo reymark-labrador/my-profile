@@ -11,6 +11,6 @@ export const MenuItem: React.FC<MenuItemProps> = ({label, link}) => {
     const isMenuOpen = useStore(state => state.isMenuOpen);
 
     return (
-        <Link to={link} onClick={() =>updateIsMenuOpen(!isMenuOpen)} className="text-6xl py-3 text-white">{label}</Link>
+        <Link to={link} onClick={() =>updateIsMenuOpen(!isMenuOpen)} className="text-4xl md:text-6xl py-3 text-white">{label}</Link>
     );
 };
