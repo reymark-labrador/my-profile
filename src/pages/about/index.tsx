@@ -64,7 +64,7 @@ export const AboutMe: React.FC = () => {
             <Container>
                 <div className="py-10 text-white tracking-wide">
                     <Paragraph>
-                        Hi, I'm Reymark, an awsome software developer with experience building web and windows applications.
+                        Hi, I'm Reymark, an awesome software developer with experience building web and windows applications.
                         I have professional experience working with C#, VB.Net and React JS.
                     </Paragraph>
                     <Paragraph>

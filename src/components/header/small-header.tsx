@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import { BurgerButton } from './BurgerButton';
 
 export const SmallHeader: React.FC = () => {
+    const rootUrl: any = process.env.REACT_APP_ROOT_URL;
+
     return (
         <div className="flex flex-col">
             <div className="flex justify-between items-center h-8">
                 <div className="text-xl md:text-3xl text-green-700 font-medium">
-                    <Link to="/">
+                    <Link to={rootUrl}>
                         Reymark Labrador
                     </Link>
                 </div>

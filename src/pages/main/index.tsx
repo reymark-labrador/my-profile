@@ -1,17 +1,6 @@
 import { useStore } from '../../store';
 import { Container, Project } from '../../components';
-import wyeesImg from '../../assets/images/portfolio/wyees.png';
-
-const projects = [
-    {
-        title: "WY & Esther Engineers",
-        type: "WEB APP",
-        imgSrc: wyeesImg,
-        imgTitle: "wyees",
-        readMoreLink: "",
-        reverse: false
-    }
-]
+import { Projects } from '../portfolio/projects';
 
 export const Main: React.FC = () => {
     useStore.setState({headerType: "big"});
@@ -22,7 +11,7 @@ export const Main: React.FC = () => {
                 <div className="text-white tracking-widest py-20">
                     PROJECTS
                 </div>
-                {projects.map((props) =>
+                {Projects.map((props) =>
                     <Project 
                         title={props.title}
                         type={props.type}
