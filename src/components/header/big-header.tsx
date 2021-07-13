@@ -3,7 +3,6 @@ import { BurgerButton } from './BurgerButton';
 
 export const BigHeader: React.FC = () => {
     const history = useHistory();
-    const abountLink = process.env.REACT_APP_ROOT_URL + "/about";
     
     return (
         <div className="pb-24">
@@ -25,7 +24,7 @@ export const BigHeader: React.FC = () => {
                     C#, VB.Net, ASP.Net, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, React JS, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
                 </p>
             </div>
-            <button onClick={() => history.push(abountLink)} className="border border-green-800 text-green-500 hover:bg-green-800 hover:text-white py-2 px-0 md:px-24 w-full md:w-auto">
+            <button onClick={() => history.push("/about")} className="border border-green-800 text-green-500 hover:bg-green-800 hover:text-white py-2 px-0 md:px-24 w-full md:w-auto">
                 More about me
             </button>
         </div>

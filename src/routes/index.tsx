@@ -5,14 +5,12 @@ import { Portfolio, PortfolioSingle } from "../pages/portfolio";
 import { NotFound } from "../pages/notFound";
 
 export const Routes: React.FC = () => {
-    const rootUrl = process.env.REACT_APP_ROOT_URL;
-
     return (
         <Switch>
-            <Route path={rootUrl} exact component={Main} />
-            <Route path={rootUrl + "/about"} exact component={AboutMe} />
-            <Route path={rootUrl + "/portfolio"} exact component={Portfolio} />
-            <Route path={rootUrl + "/portfolio/:id"} exact component={PortfolioSingle} />
+            <Route path={"/"} exact component={Main} />
+            <Route path={"/about"} exact component={AboutMe} />
+            <Route path={"/portfolio"} exact component={Portfolio} />
+            <Route path={"/portfolio/:id"} exact component={PortfolioSingle} />
             <Route component={NotFound} />
         </Switch>
     );

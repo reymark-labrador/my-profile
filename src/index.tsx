@@ -1,13 +1,13 @@
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Layout } from './components/layout';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Layout />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
