@@ -1,3 +1,4 @@
+import { useHistory } from "react-router-dom";
 import { Container } from './container';
 
 export interface ProjectProps {
@@ -10,6 +11,8 @@ export interface ProjectProps {
 }
 
 export const Project: React.FC<ProjectProps> = ({title, type, imgSrc, imgTitle, readMoreLink, reverse}) => {
+    const history = useHistory();
+
     return (
         <Container reverse={reverse}>
             <div className="w-full md:w-96">
@@ -20,14 +23,14 @@ export const Project: React.FC<ProjectProps> = ({title, type, imgSrc, imgTitle, 
                     <div className="text-white tracking-wider">
                         {type}
                     </div>
-                    <button className="md:block hidden bg-blue-900 text-white py-2 px-12">
+                    <button onClick={() => history.push(readMoreLink)} className="md:block hidden bg-blue-900 text-white py-2 px-12">
                         read more
                     </button>
                 </div>
             </div>
             <div className="flex flex-col">
                 <img src={imgSrc} title={imgTitle} alt=""/>
-                <button className="md:hidden bg-blue-900 text-white py-2 px-12 my-16">
+                <button onClick={() => history.push(readMoreLink)} className="md:hidden bg-blue-900 text-white py-2 px-12 my-16">
                     read more
                 </button>
             </div>

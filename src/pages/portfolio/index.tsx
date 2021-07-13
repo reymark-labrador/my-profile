@@ -1,6 +1,7 @@
 import { useStore } from '../../store';
 import { Container, Project } from '../../components';
 import { Projects } from './projects';
+import { PortfolioSingle } from './portfolioSingle';
 
 export const Portfolio: React.FC = () => {
     useStore.setState({headerType: "small"});
@@ -20,8 +21,11 @@ export const Portfolio: React.FC = () => {
                         readMoreLink={props.readMoreLink}
                         reverse={props.reverse}/>
                 )}
-                
             </Container>
         </div>
     );
 };
+
+export {
+    PortfolioSingle
+}

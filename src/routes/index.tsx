@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import { Main } from "../pages/main";
 import { AboutMe } from "../pages/about";
-import { Portfolio } from "../pages/portfolio";
+import { Portfolio, PortfolioSingle } from "../pages/portfolio";
 import { NotFound } from "../pages/notFound";
 
 export const Routes: React.FC = () => {
@@ -12,6 +12,7 @@ export const Routes: React.FC = () => {
             <Route path={rootUrl} exact component={Main} />
             <Route path={rootUrl + "/about"} exact component={AboutMe} />
             <Route path={rootUrl + "/portfolio"} exact component={Portfolio} />
+            <Route path={rootUrl + "/portfolio/:id"} exact component={PortfolioSingle} />
             <Route component={NotFound} />
         </Switch>
     );
