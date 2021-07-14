@@ -24,7 +24,7 @@ export const Projects = [
         readMoreLink: "/portfolio/ziro",
         reverse: true,
         shortDescription: "React JS webapp for ride-hailing",
-        description: "ZIRO is a ride-hailing app. This landing page was created with the use of React JS and API integration.",
+        description: "ZIRO is a ride-hailing app. This landing page is created with React JS and API integration.",
         cta: "https://www.rideziro.com/"
     },
     {
