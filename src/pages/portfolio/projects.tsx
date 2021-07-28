@@ -1,8 +1,34 @@
+import aspMvcImg from '../../assets/images/portfolio/asp-mvc.png';
+import reactAuthImg from '../../assets/images/portfolio/react-auth.png';
 import wyeesImg from '../../assets/images/portfolio/wyees.png';
 import ziroImg from '../../assets/images/portfolio/ziro.png';
 import sodImg from '../../assets/images/portfolio/sod.png';
 
 export const Projects = [
+    {
+        title: "ASP.NET, MVC, MSSQL, Code First",
+        titleSlug: "aspnet-mvc-mssql-codefirst",
+        type: "WEB APP",
+        imgSrc: aspMvcImg,
+        imgTitle: "wyees",
+        readMoreLink: "/portfolio/aspnet-mvc-mssql-codefirst",
+        reverse: false,
+        shortDescription: "Simple ASP.NET crud",
+        description: "A simple ASP.NET crud using ASP.NET, MSSQL and code first approach.",
+        cta: "https://github.com/reymark-labrador/asp-mvc-crud"
+    },
+    {
+        title: "React jwt auth & Node JS",
+        titleSlug: "react-jwt-nodejs",
+        type: "WEB APP",
+        imgSrc: reactAuthImg,
+        imgTitle: "wyees",
+        readMoreLink: "/portfolio/react-jwt-nodejs",
+        reverse: true,
+        shortDescription: "Simple React jwt auth",
+        description: "A simple React jwt auth using React, Node JS & MYSQL.",
+        cta: "https://github.com/reymark-labrador/react-auth"
+    },
     {
         title: "WY & Esther Engineers",
         titleSlug: "wy-esther-enginners",
