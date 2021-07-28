@@ -69,7 +69,7 @@ export const AboutMe: React.FC = () => {
                     </Paragraph>
                     <Paragraph>
                         <ParagraphTitle>Technologies</ParagraphTitle><br/>
-                        C#, VB.Net, ASP.Net, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, React JS, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
+                        React JS, C#, VB.Net, ASP.Net, Node JS, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
                     </Paragraph>
                     <Paragraph>
                         <ParagraphTitle>Work Experience</ParagraphTitle><br/>

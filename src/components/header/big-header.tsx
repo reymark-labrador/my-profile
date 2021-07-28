@@ -21,7 +21,7 @@ export const BigHeader: React.FC = () => {
                     Software Developer
                 </p>
                 <p className="pt-5 text-white text-base md:text-lg tracking-wide">
-                    C#, VB.Net, ASP.Net, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, React JS, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
+                    React JS, C#, VB.Net, ASP.Net, Node JS, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
                 </p>
             </div>
             <button onClick={() => history.push("/about")} className="border border-green-800 text-green-500 hover:bg-green-800 hover:text-white py-2 px-0 md:px-24 w-full md:w-auto">
