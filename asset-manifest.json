@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.232f1924.chunk.css",
-    "main.js": "/my-profile/static/js/main.e4bf44e4.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.e4bf44e4.chunk.js.map",
-    "runtime-main.js": "/my-profile/static/js/runtime-main.48eaacf3.js",
-    "runtime-main.js.map": "/my-profile/static/js/runtime-main.48eaacf3.js.map",
-    "static/js/2.724b9513.chunk.js": "/my-profile/static/js/2.724b9513.chunk.js",
-    "static/js/2.724b9513.chunk.js.map": "/my-profile/static/js/2.724b9513.chunk.js.map",
-    "static/js/3.afde8b54.chunk.js": "/my-profile/static/js/3.afde8b54.chunk.js",
-    "static/js/3.afde8b54.chunk.js.map": "/my-profile/static/js/3.afde8b54.chunk.js.map",
+    "main.css": "/my-profile/static/css/main.bef2e64d.chunk.css",
+    "main.js": "/my-profile/static/js/main.3885e52d.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.3885e52d.chunk.js.map",
+    "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
+    "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
+    "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
+    "static/js/2.03d97624.chunk.js.map": "/my-profile/static/js/2.03d97624.chunk.js.map",
+    "static/js/3.096802c0.chunk.js": "/my-profile/static/js/3.096802c0.chunk.js",
+    "static/js/3.096802c0.chunk.js.map": "/my-profile/static/js/3.096802c0.chunk.js.map",
     "index.html": "/my-profile/index.html",
-    "static/css/main.232f1924.chunk.css.map": "/my-profile/static/css/main.232f1924.chunk.css.map",
-    "static/js/2.724b9513.chunk.js.LICENSE.txt": "/my-profile/static/js/2.724b9513.chunk.js.LICENSE.txt",
+    "static/css/main.bef2e64d.chunk.css.map": "/my-profile/static/css/main.bef2e64d.chunk.css.map",
+    "static/js/2.03d97624.chunk.js.LICENSE.txt": "/my-profile/static/js/2.03d97624.chunk.js.LICENSE.txt",
     "static/media/asp-mvc.c9969bb1.png": "/my-profile/static/media/asp-mvc.c9969bb1.png",
     "static/media/react-auth.a23d9503.png": "/my-profile/static/media/react-auth.a23d9503.png",
     "static/media/sod.80bc3804.png": "/my-profile/static/media/sod.80bc3804.png",
@@ -19,9 +19,9 @@
     "static/media/ziro.a9e80a51.png": "/my-profile/static/media/ziro.a9e80a51.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48eaacf3.js",
-    "static/js/2.724b9513.chunk.js",
-    "static/css/main.232f1924.chunk.css",
-    "static/js/main.e4bf44e4.chunk.js"
+    "static/js/runtime-main.b16e783f.js",
+    "static/js/2.03d97624.chunk.js",
+    "static/css/main.bef2e64d.chunk.css",
+    "static/js/main.3885e52d.chunk.js"
   ]
 }
