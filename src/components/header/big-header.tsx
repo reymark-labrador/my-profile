@@ -1,5 +1,6 @@
 import { useHistory } from "react-router-dom";
 import { BurgerButton } from './BurgerButton';
+import { profile } from "../../data/profile";
 
 export const BigHeader: React.FC = () => {
     const history = useHistory();
@@ -13,15 +14,15 @@ export const BigHeader: React.FC = () => {
                 <BurgerButton/>
             </div>
             <div className="text-5xl md:text-8xl text-green-700 font-bold">
-                Reymark <br/>
-                Labrador
+                {profile.firstName} <br/>
+                {profile.lastName}
             </div>
             <div className="py-10">
                 <p className="text-2xl md:text-4xl text-green-800 font-semibold">
-                    Software Developer
+                    {profile.position}
                 </p>
                 <p className="pt-5 text-white text-base md:text-lg tracking-wide">
-                    React JS, C#, VB.Net, ASP.Net, Node JS, MVVM, Repository Pattern, PHP, Laravel, Wordpress, Angular, Redux , Next JS, CSS, SASS, Bootstrap, Tailwind, MSSQL, MYSQL
+                    {profile.skills}
                 </p>
             </div>
             <button onClick={() => history.push("/about")} className="border border-green-800 text-green-500 hover:bg-green-800 hover:text-white py-2 px-0 md:px-24 w-full md:w-auto">

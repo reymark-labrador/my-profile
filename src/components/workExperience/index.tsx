@@ -14,8 +14,8 @@ interface WorkExperienceProps {
 export const WorkExperience: React.FC<WorkExperienceProps> = ({position, company, location, dateFrom, dateTo, jobs}) => {
     return (
         <>
-            {position}<br/>
-            {company} - {location}: {dateFrom} - {dateTo}
+            <span className="bg-white px-2 text-gray-900">{position}</span><br/>
+            <span className="bg-white px-2 text-gray-900">{company}</span> - {location}: {dateFrom} - {dateTo}
             <ul className="list-disc list-inside">
                 {jobs.map((props) =>
                     <li>{props.description}</li>

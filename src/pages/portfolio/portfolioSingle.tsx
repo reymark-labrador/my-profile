@@ -25,7 +25,13 @@ export const PortfolioSingle: React.FC = () => {
                             imgSrc={props.imgSrc}
                             shortDescription={props.shortDescription}
                             description={props.description}
-                            cta={props.cta}/>
+                            cta={props.cta} 
+                            titleSlug={""} 
+                            type={""} 
+                            imgTitle={""} 
+                            readMoreLink={""} 
+                            reverse={false}
+                        />
                     )}
                 </Container>
             </div>

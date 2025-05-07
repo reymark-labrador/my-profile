@@ -1,5 +1,5 @@
 import { useStore } from '../../store';
-import { Container, Project } from '../../components';
+import { Container, ProjectCard } from '../../components';
 import { Projects } from '../portfolio/projects';
 
 export const Main: React.FC = () => {
@@ -11,14 +11,19 @@ export const Main: React.FC = () => {
                 <div className="text-white tracking-widest py-20">
                     PROJECTS
                 </div>
-                {Projects.map((props) =>
-                    <Project 
-                        title={props.title}
-                        type={props.type}
-                        imgSrc={props.imgSrc}
-                        imgTitle={props.imgTitle}
-                        readMoreLink={props.readMoreLink}
-                        reverse={props.reverse}/>
+                {Projects.map((project, index) =>
+                    <ProjectCard 
+                        title={project.title}
+                        type={project.type}
+                        imgSrc={project.imgSrc}
+                        imgTitle={project.imgTitle}
+                        readMoreLink={project.readMoreLink}
+                        reverse={index % 2 !== 0} 
+                        titleSlug={''} 
+                        shortDescription={''} 
+                        description={''} 
+                        cta={''}
+                    />
                 )}
             </Container>
         </div>

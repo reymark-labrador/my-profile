@@ -1,13 +1,7 @@
 import { Paragraph } from '../../components';
+import { Project } from '../../types/project';
 
-interface ProjectDetailProps {
-    title?: string;
-    imgSrc?: string;
-    imgTitle?: string;
-    shortDescription?: string;
-    description?: string;
-    cta?: string;
-}
+interface ProjectDetailProps  extends Project {}
 
 export const ProjectDetail: React.FC<ProjectDetailProps> = ({title, imgSrc, imgTitle, shortDescription, description, cta=""}) => {
     return (
@@ -16,7 +10,7 @@ export const ProjectDetail: React.FC<ProjectDetailProps> = ({title, imgSrc, imgT
             <img src={imgSrc} title={imgTitle} alt=""/>
             <h2 className="py-9 text-3xl md:text-6xl font-bold text-blue-700">{shortDescription}</h2>
             <Paragraph>
-                <span className="text-white">{description}</span>
+                <div className="text-white" dangerouslySetInnerHTML={{ __html: description || '' }}></div>
             </Paragraph>
             <Paragraph>
                 <span className="text-white">Visit </span>

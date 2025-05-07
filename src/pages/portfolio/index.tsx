@@ -1,5 +1,5 @@
 import { useStore } from '../../store';
-import { Container, Project } from '../../components';
+import { Container, ProjectCard } from '../../components';
 import { Projects } from './projects';
 import { PortfolioSingle } from './portfolioSingle';
 
@@ -13,13 +13,18 @@ export const Portfolio: React.FC = () => {
                     PROJECTS
                 </div>
                 {Projects.map((props) =>
-                    <Project 
+                    <ProjectCard 
                         title={props.title}
                         type={props.type}
                         imgSrc={props.imgSrc}
                         imgTitle={props.imgTitle}
                         readMoreLink={props.readMoreLink}
-                        reverse={props.reverse}/>
+                        reverse={props.reverse} 
+                        titleSlug={''} 
+                        shortDescription={''} 
+                        description={''} 
+                        cta={''}
+                    />
                 )}
             </Container>
         </div>
