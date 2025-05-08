@@ -8,6 +8,9 @@ import ziroImg from '../../assets/images/portfolio/ziro.png';
 import sodImg from '../../assets/images/portfolio/sod.png';
 import qcommsImg from '../../assets/images/portfolio/qcomms.png';
 import nachosImg from '../../assets/images/portfolio/nachos.png';
+import coronaLandingImg from '../../assets/images/portfolio/corona-landing.png';
+import beerMarketImg from '../../assets/images/portfolio/beer-market.png';
+import dashboardImg from '../../assets/images/portfolio/dashboard.png';
 
 export const Projects: Project[] = [
     {
@@ -27,6 +30,23 @@ export const Projects: Project[] = [
 
         `,
         cta: "https://www.paddysmarkets.com.au/"
+    },
+    {
+        title: "Microsite Dashboard",
+        titleSlug: "microsite-dashboard",
+        type: "WEB APP",
+        imgSrc: dashboardImg,
+        imgTitle: "microsite-dashboard",
+        readMoreLink: "/portfolio/microsite-dashboard",
+        shortDescription: "Microsite Dashboard",
+        description: `
+            Built with React, Node js, Zustand, TanStack, Shadcn, Tailwind <br/><br/>
+
+            Developed a dashboard for setting up microsite promotions, allowing admins to 
+            configure form fields, define mechanic types, manage prizes, and view detailed entry reports. 
+            The interface streamlines campaign creation and provides full control over promotion setup and tracking.
+        `,
+        cta: ""
     },
     {
         title: "Nachos",
@@ -62,6 +82,43 @@ export const Projects: Project[] = [
             a fully responsive design optimized for performance and SEO.
         `,
         cta: "https://qcomms.ae/"
+    },
+    {
+        title: "Beer Market",
+        titleSlug: "beer-market",
+        type: "WEB APP",
+        imgSrc: beerMarketImg,
+        imgTitle: "beer-market",
+        readMoreLink: "/portfolio/beer-market",
+        shortDescription: "The Beer Market",
+        description: `
+            Built with Vue and Tailwind<br/><br/>
+
+            Developed a mobile-first Beer Market webpage focused on showcasing beers from around the world. 
+            The page features interactive tiles for each beer category, revealing a list of beers when clicked. 
+            It also includes an interactive map where users can view and click venue locations to find nearby beer stands, 
+            providing an engaging and intuitive experience optimized for mobile users.
+        `,
+        cta: ""
+    },
+    {
+        title: "Corona Landing",
+        titleSlug: "corona-landing",
+        type: "WEB APP",
+        imgSrc: coronaLandingImg,
+        imgTitle: "corona-landing",
+        readMoreLink: "/portfolio/corona-landing",
+        shortDescription: "Corona Landing",
+        description: `
+            Built with jQuery and Bootstrap<br/><br/>
+
+            Developed a responsive promotional landing page for Corona using jQuery and Bootstrap. 
+            The page highlighted a travel giveaway campaign, featuring smooth scrolling, interactive modals, 
+            and image galleries to showcase island destinations. It provided clear promotional details, entry 
+            instructions, and a strong call-to-action, all within a mobile-friendly, brand-aligned design focused 
+            on user engagement and conversion.
+        `,
+        cta: ""
     },
     {
         title: "WY & Esther Engineers",
