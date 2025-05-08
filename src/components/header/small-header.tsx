@@ -7,7 +7,7 @@ export const SmallHeader: React.FC = () => {
             <div className="flex justify-between items-center h-8">
                 <div className="text-xl md:text-3xl text-green-700 font-medium">
                     <Link to={"/"}>
-                       {getFullName}
+                       {getFullName()}
                     </Link>
                 </div>
                 <BurgerButton/>
