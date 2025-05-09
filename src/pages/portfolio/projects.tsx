@@ -11,6 +11,7 @@ import nachosImg from '../../assets/images/portfolio/nachos.png';
 import coronaLandingImg from '../../assets/images/portfolio/corona-landing.png';
 import beerMarketImg from '../../assets/images/portfolio/beer-market.png';
 import dashboardImg from '../../assets/images/portfolio/dashboard.png';
+import jamesonTapGameImg from '../../assets/images/portfolio/jameson-tap-game.png';
 
 export const Projects: Project[] = [
     {
@@ -67,21 +68,21 @@ export const Projects: Project[] = [
         cta: "https://nachoskitchen.me/"
     },
     {
-        title: "Qcomms",
-        titleSlug: "qcomms",
+        title: "Jameson Tap Game",
+        titleSlug: "jameson-tap-game",
         type: "WEB APP",
-        imgSrc: qcommsImg,
-        imgTitle: "qcomms",
-        readMoreLink: "/portfolio/qcomms",
-        shortDescription: "Q Communications Website",
+        imgSrc: jamesonTapGameImg,
+        imgTitle: "jameson-tap-game",
+        readMoreLink: "/portfolio/jameson-tap-game",
+        shortDescription: "The Beer Market",
         description: `
-            Built with WordPress<br/><br/>
+            Built with Vue, Phaser and Tailwind<br/><br/>
 
-            Developed a clean, modern website for Q Communications, a UAE-based PR and digital marketing agency. 
-            Built with WordPress for easy content updates, the site features custom layouts, smooth animations, and 
-            a fully responsive design optimized for performance and SEO.
+            Created an interactive game where users first fill out a form, which on submission calls an API 
+            to determine if they’re a winner. If selected, the game begins with a tap-to-catch mechanic where 
+            players tap falling clovers, combining form-based participation with engaging gameplay.
         `,
-        cta: "https://qcomms.ae/"
+        cta: ""
     },
     {
         title: "Beer Market",
@@ -119,6 +120,23 @@ export const Projects: Project[] = [
             on user engagement and conversion.
         `,
         cta: ""
+    },
+    {
+        title: "Qcomms",
+        titleSlug: "qcomms",
+        type: "WEB APP",
+        imgSrc: qcommsImg,
+        imgTitle: "qcomms",
+        readMoreLink: "/portfolio/qcomms",
+        shortDescription: "Q Communications Website",
+        description: `
+            Built with WordPress<br/><br/>
+
+            Developed a clean, modern website for Q Communications, a UAE-based PR and digital marketing agency. 
+            Built with WordPress for easy content updates, the site features custom layouts, smooth animations, and 
+            a fully responsive design optimized for performance and SEO.
+        `,
+        cta: "https://qcomms.ae/"
     },
     {
         title: "WY & Esther Engineers",
