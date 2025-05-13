@@ -23,7 +23,7 @@ export const Projects: Project[] = [
         readMoreLink: "/portfolio/paddys",
         shortDescription: "Paddy’s Markets Website",
         description: `
-            Built with Statamic, Tailwind CSS, Alpine.js <br/><br/>
+            Built with Laravel, Statamic, Tailwind CSS, Alpine.js <br/><br/>
 
             Developed a fully responsive, CMS-driven website for one of Australia’s most iconic market brands. 
             Used Statamic for flexible content management, with custom templates, dynamic listings, and fast, 
