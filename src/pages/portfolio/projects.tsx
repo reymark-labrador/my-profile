@@ -1,8 +1,8 @@
 import { Project } from '../../types/project';
 
 import paddysImg from '../../assets/images/portfolio/paddys.png';
-import aspMvcImg from '../../assets/images/portfolio/asp-mvc.png';
-import reactAuthImg from '../../assets/images/portfolio/react-auth.png';
+// import aspMvcImg from '../../assets/images/portfolio/asp-mvc.png';
+// import reactAuthImg from '../../assets/images/portfolio/react-auth.png';
 import wyeesImg from '../../assets/images/portfolio/wyees.png';
 import ziroImg from '../../assets/images/portfolio/ziro.png';
 import sodImg from '../../assets/images/portfolio/sod.png';
@@ -12,6 +12,7 @@ import coronaLandingImg from '../../assets/images/portfolio/corona-landing.png';
 import beerMarketImg from '../../assets/images/portfolio/beer-market.png';
 import dashboardImg from '../../assets/images/portfolio/dashboard.png';
 import jamesonTapGameImg from '../../assets/images/portfolio/jameson-tap-game.png';
+import robotechImg from '../../assets/images/portfolio/robotech.png';
 
 export const Projects: Project[] = [
     {
@@ -139,6 +140,17 @@ export const Projects: Project[] = [
         cta: "https://qcomms.ae/"
     },
     {
+        title: "ROBOTECH Automation",
+        titleSlug: "robotech",
+        type: "WEB APP",
+        imgSrc: robotechImg,
+        imgTitle: "robotech",
+        readMoreLink: "/portfolio/robotech",
+        shortDescription: "ROBOTECH Automation Website",
+        description: "ROBOTECH Automation company is specializes in developing innovative solutions for a variety of industries. Our goal is to improve efficiency and productivity while reducing costs and increasing safety. We value innovation, collaboration, and sustainability in all aspects of our work.",
+        cta: "https://robotechautomation.net/"
+    },
+    {
         title: "WY & Esther Engineers",
         titleSlug: "wy-esther-enginners",
         type: "WEB APP",
@@ -171,27 +183,27 @@ export const Projects: Project[] = [
         description: "They want to inspire & empower the workforce of the future and provide them with the tools and capabilities to future-proof their business in an Age of Disruption.",
         cta: "https://schoolofdisruption.com/"
     },
-    {
-        title: "ASP.NET, MVC, MSSQL, Code First",
-        titleSlug: "aspnet-mvc-mssql-codefirst",
-        type: "WEB APP",
-        imgSrc: aspMvcImg,
-        imgTitle: "wyees",
-        readMoreLink: "/portfolio/aspnet-mvc-mssql-codefirst",
-        shortDescription: "Simple ASP.NET crud",
-        description: "A simple ASP.NET crud using ASP.NET, MSSQL and code first approach.",
-        cta: "https://github.com/reymark-labrador/asp-mvc-crud"
-    },
-    {
-        title: "React jwt auth & Node JS",
-        titleSlug: "react-jwt-nodejs",
-        type: "WEB APP",
-        imgSrc: reactAuthImg,
-        imgTitle: "wyees",
-        readMoreLink: "/portfolio/react-jwt-nodejs",
-        shortDescription: "Simple React jwt auth",
-        description: "A simple React jwt auth using React, Node JS & MYSQL.",
-        cta: "https://github.com/reymark-labrador/react-auth"
-    },
+    // {
+    //     title: "ASP.NET, MVC, MSSQL, Code First",
+    //     titleSlug: "aspnet-mvc-mssql-codefirst",
+    //     type: "WEB APP",
+    //     imgSrc: aspMvcImg,
+    //     imgTitle: "wyees",
+    //     readMoreLink: "/portfolio/aspnet-mvc-mssql-codefirst",
+    //     shortDescription: "Simple ASP.NET crud",
+    //     description: "A simple ASP.NET crud using ASP.NET, MSSQL and code first approach.",
+    //     cta: "https://github.com/reymark-labrador/asp-mvc-crud"
+    // },
+    // {
+    //     title: "React jwt auth & Node JS",
+    //     titleSlug: "react-jwt-nodejs",
+    //     type: "WEB APP",
+    //     imgSrc: reactAuthImg,
+    //     imgTitle: "wyees",
+    //     readMoreLink: "/portfolio/react-jwt-nodejs",
+    //     shortDescription: "Simple React jwt auth",
+    //     description: "A simple React jwt auth using React, Node JS & MYSQL.",
+    //     cta: "https://github.com/reymark-labrador/react-auth"
+    // },
     
 ]
