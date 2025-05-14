@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-profile/static/css/main.0813a466.chunk.css",
-    "main.js": "/my-profile/static/js/main.b4e264d2.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.b4e264d2.chunk.js.map",
+    "main.js": "/my-profile/static/js/main.6e06f2de.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.6e06f2de.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
     "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
@@ -12,7 +12,6 @@
     "index.html": "/my-profile/index.html",
     "static/css/main.0813a466.chunk.css.map": "/my-profile/static/css/main.0813a466.chunk.css.map",
     "static/js/2.03d97624.chunk.js.LICENSE.txt": "/my-profile/static/js/2.03d97624.chunk.js.LICENSE.txt",
-    "static/media/asp-mvc.c9969bb1.png": "/my-profile/static/media/asp-mvc.c9969bb1.png",
     "static/media/beer-market.c17b87d9.png": "/my-profile/static/media/beer-market.c17b87d9.png",
     "static/media/corona-landing.3618dd8c.png": "/my-profile/static/media/corona-landing.3618dd8c.png",
     "static/media/dashboard.e2d93514.png": "/my-profile/static/media/dashboard.e2d93514.png",
@@ -20,7 +19,7 @@
     "static/media/nachos.5d45ca49.png": "/my-profile/static/media/nachos.5d45ca49.png",
     "static/media/paddys.e7b8ed2a.png": "/my-profile/static/media/paddys.e7b8ed2a.png",
     "static/media/qcomms.8ef4ab91.png": "/my-profile/static/media/qcomms.8ef4ab91.png",
-    "static/media/react-auth.a23d9503.png": "/my-profile/static/media/react-auth.a23d9503.png",
+    "static/media/robotech.038f9ed7.png": "/my-profile/static/media/robotech.038f9ed7.png",
     "static/media/sod.80bc3804.png": "/my-profile/static/media/sod.80bc3804.png",
     "static/media/wyees.45f9d9b4.png": "/my-profile/static/media/wyees.45f9d9b4.png",
     "static/media/ziro.a9e80a51.png": "/my-profile/static/media/ziro.a9e80a51.png"
@@ -29,6 +28,6 @@
     "static/js/runtime-main.b16e783f.js",
     "static/js/2.03d97624.chunk.js",
     "static/css/main.0813a466.chunk.css",
-    "static/js/main.b4e264d2.chunk.js"
+    "static/js/main.6e06f2de.chunk.js"
   ]
 }
