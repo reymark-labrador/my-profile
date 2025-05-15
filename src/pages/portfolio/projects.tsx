@@ -128,7 +128,12 @@ export const Projects: Project[] = [
         imgTitle: "robotech",
         readMoreLink: "/portfolio/robotech",
         shortDescription: "ROBOTECH Automation Website",
-        description: "ROBOTECH Automation company is specializes in developing innovative solutions for a variety of industries. Our goal is to improve efficiency and productivity while reducing costs and increasing safety. We value innovation, collaboration, and sustainability in all aspects of our work.",
+        description: `
+            Built with WordPress<br/><br/>
+
+            ROBOTECH Automation company is specializes in developing innovative solutions for a variety of industries. 
+            Our goal is to improve efficiency and productivity while reducing costs and increasing safety. 
+            We value innovation, collaboration, and sustainability in all aspects of our work.`,
         cta: "https://robotechautomation.net/"
     },
     {
@@ -139,7 +144,12 @@ export const Projects: Project[] = [
         imgTitle: "wyees",
         readMoreLink: "/portfolio/wy-esther-enginners",
         shortDescription: "Wordpress webapp for structural engineering",
-        description: "They are a built environment consulting firm and specialist structural engineering practice with offices established in Dubai in 2015. They have delivered projects in the commercial, hospitality, residential, retail, sport and leisure sectors throughout the UAE, Bahrain, Kuwait, Cyprus, Greece, Morocco, Seychelles and Sri Lanka.",
+        description: `
+            Built with WordPress<br/><br/>
+
+            They are a built environment consulting firm and specialist structural engineering practice with offices established in Dubai in 2015. 
+            They have delivered projects in the commercial, hospitality, residential, retail, sport and leisure sectors throughout the UAE, Bahrain, Kuwait, 
+            Cyprus, Greece, Morocco, Seychelles and Sri Lanka.`,
         cta: "https://www.wyees.com/"
     },
     {
@@ -150,7 +160,11 @@ export const Projects: Project[] = [
         imgTitle: "sod",
         readMoreLink: "/portfolio/school-of-disruption",
         shortDescription: "Wordpress webapp for School of Disruption",
-        description: "They want to inspire & empower the workforce of the future and provide them with the tools and capabilities to future-proof their business in an Age of Disruption.",
+        description: `
+            Built with WordPress<br/><br/>
+
+            They want to inspire & empower the workforce of the future and provide them with the tools and 
+            capabilities to future-proof their business in an Age of Disruption.`,
         cta: "https://schoolofdisruption.com/"
     },
     {
@@ -161,7 +175,10 @@ export const Projects: Project[] = [
         imgTitle: "ziro",
         readMoreLink: "/portfolio/ziro",
         shortDescription: "React JS webapp for ride-hailing",
-        description: "ZIRO is a ride-hailing app. This landing page is created with React JS and API integration.",
+        description: `
+            Built with React<br/><br/>
+
+            ZIRO is a ride-hailing app. This landing page is created with React JS and API integration.`,
         cta: "https://www.rideziro.com/"
     },
     {
