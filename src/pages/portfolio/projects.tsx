@@ -104,25 +104,6 @@ export const Projects: Project[] = [
         cta: ""
     },
     {
-        title: "Corona Landing",
-        titleSlug: "corona-landing",
-        type: "WEB APP",
-        imgSrc: coronaLandingImg,
-        imgTitle: "corona-landing",
-        readMoreLink: "/portfolio/corona-landing",
-        shortDescription: "Corona Landing",
-        description: `
-            Built with jQuery and Bootstrap<br/><br/>
-
-            Developed a responsive promotional landing page for Corona using jQuery and Bootstrap. 
-            The page highlighted a travel giveaway campaign, featuring smooth scrolling, interactive modals, 
-            and image galleries to showcase island destinations. It provided clear promotional details, entry 
-            instructions, and a strong call-to-action, all within a mobile-friendly, brand-aligned design focused 
-            on user engagement and conversion.
-        `,
-        cta: ""
-    },
-    {
         title: "Qcomms",
         titleSlug: "qcomms",
         type: "WEB APP",
@@ -162,6 +143,17 @@ export const Projects: Project[] = [
         cta: "https://www.wyees.com/"
     },
     {
+        title: "School of Disruption",
+        titleSlug: "school-of-disruption",
+        type: "WEB APP",
+        imgSrc: sodImg,
+        imgTitle: "sod",
+        readMoreLink: "/portfolio/school-of-disruption",
+        shortDescription: "Wordpress webapp for School of Disruption",
+        description: "They want to inspire & empower the workforce of the future and provide them with the tools and capabilities to future-proof their business in an Age of Disruption.",
+        cta: "https://schoolofdisruption.com/"
+    },
+    {
         title: "ZIRO",
         titleSlug: "ziro",
         type: "WEB APP",
@@ -173,15 +165,23 @@ export const Projects: Project[] = [
         cta: "https://www.rideziro.com/"
     },
     {
-        title: "School of Disruption",
-        titleSlug: "school-of-disruption",
+        title: "Corona Landing",
+        titleSlug: "corona-landing",
         type: "WEB APP",
-        imgSrc: sodImg,
-        imgTitle: "sod",
-        readMoreLink: "/portfolio/school-of-disruption",
-        shortDescription: "Wordpress webapp for School of Disruption",
-        description: "They want to inspire & empower the workforce of the future and provide them with the tools and capabilities to future-proof their business in an Age of Disruption.",
-        cta: "https://schoolofdisruption.com/"
+        imgSrc: coronaLandingImg,
+        imgTitle: "corona-landing",
+        readMoreLink: "/portfolio/corona-landing",
+        shortDescription: "Corona Landing",
+        description: `
+            Built with jQuery and Bootstrap<br/><br/>
+
+            Developed a responsive promotional landing page for Corona using jQuery and Bootstrap. 
+            The page highlighted a travel giveaway campaign, featuring smooth scrolling, interactive modals, 
+            and image galleries to showcase island destinations. It provided clear promotional details, entry 
+            instructions, and a strong call-to-action, all within a mobile-friendly, brand-aligned design focused 
+            on user engagement and conversion.
+        `,
+        cta: ""
     },
     // {
     //     title: "ASP.NET, MVC, MSSQL, Code First",

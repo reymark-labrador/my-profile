@@ -21,7 +21,7 @@ export const BigHeader: React.FC = () => {
                 <p className="text-2xl md:text-4xl text-green-800 font-semibold">
                     {profile.position}
                 </p>
-                <p className="pt-5 text-white text-base md:text-lg tracking-wide">
+                <p className="pt-5 text-white text-base md:text-lg tracking-wide text-balance">
                     {profile.skills}
                 </p>
             </div>
