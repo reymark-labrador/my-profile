@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.0813a466.chunk.css",
-    "main.js": "/my-profile/static/js/main.6e06f2de.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.6e06f2de.chunk.js.map",
+    "main.css": "/my-profile/static/css/main.714857c8.chunk.css",
+    "main.js": "/my-profile/static/js/main.3029ca82.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.3029ca82.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
     "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.096802c0.chunk.js": "/my-profile/static/js/3.096802c0.chunk.js",
     "static/js/3.096802c0.chunk.js.map": "/my-profile/static/js/3.096802c0.chunk.js.map",
     "index.html": "/my-profile/index.html",
-    "static/css/main.0813a466.chunk.css.map": "/my-profile/static/css/main.0813a466.chunk.css.map",
+    "static/css/main.714857c8.chunk.css.map": "/my-profile/static/css/main.714857c8.chunk.css.map",
     "static/js/2.03d97624.chunk.js.LICENSE.txt": "/my-profile/static/js/2.03d97624.chunk.js.LICENSE.txt",
     "static/media/beer-market.c17b87d9.png": "/my-profile/static/media/beer-market.c17b87d9.png",
     "static/media/corona-landing.3618dd8c.png": "/my-profile/static/media/corona-landing.3618dd8c.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.b16e783f.js",
     "static/js/2.03d97624.chunk.js",
-    "static/css/main.0813a466.chunk.css",
-    "static/js/main.6e06f2de.chunk.js"
+    "static/css/main.714857c8.chunk.css",
+    "static/js/main.3029ca82.chunk.js"
   ]
 }
