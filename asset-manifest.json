@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-profile/static/css/main.714857c8.chunk.css",
-    "main.js": "/my-profile/static/js/main.87f1108a.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.87f1108a.chunk.js.map",
+    "main.js": "/my-profile/static/js/main.0283e616.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.0283e616.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
     "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/beer-market.c17b87d9.png": "/my-profile/static/media/beer-market.c17b87d9.png",
     "static/media/corona-landing.3618dd8c.png": "/my-profile/static/media/corona-landing.3618dd8c.png",
     "static/media/dashboard.e2d93514.png": "/my-profile/static/media/dashboard.e2d93514.png",
+    "static/media/guiness-flint.501e4824.png": "/my-profile/static/media/guiness-flint.501e4824.png",
     "static/media/jameson-tap-game.956fb981.png": "/my-profile/static/media/jameson-tap-game.956fb981.png",
     "static/media/nachos.5d45ca49.png": "/my-profile/static/media/nachos.5d45ca49.png",
     "static/media/paddys.e7b8ed2a.png": "/my-profile/static/media/paddys.e7b8ed2a.png",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.b16e783f.js",
     "static/js/2.03d97624.chunk.js",
     "static/css/main.714857c8.chunk.css",
-    "static/js/main.87f1108a.chunk.js"
+    "static/js/main.0283e616.chunk.js"
   ]
 }
