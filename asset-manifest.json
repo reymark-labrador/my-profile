@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-profile/static/css/main.714857c8.chunk.css",
-    "main.js": "/my-profile/static/js/main.0283e616.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.0283e616.chunk.js.map",
+    "main.js": "/my-profile/static/js/main.cc8d1bbc.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.cc8d1bbc.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
     "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.03d97624.chunk.js.LICENSE.txt": "/my-profile/static/js/2.03d97624.chunk.js.LICENSE.txt",
     "static/media/asp-mvc.c9969bb1.png": "/my-profile/static/media/asp-mvc.c9969bb1.png",
     "static/media/beer-market.c17b87d9.png": "/my-profile/static/media/beer-market.c17b87d9.png",
+    "static/media/blends-&-beats.2b7f89c3.png": "/my-profile/static/media/blends-&-beats.2b7f89c3.png",
     "static/media/corona-landing.3618dd8c.png": "/my-profile/static/media/corona-landing.3618dd8c.png",
     "static/media/dashboard.e2d93514.png": "/my-profile/static/media/dashboard.e2d93514.png",
     "static/media/guiness-flint.501e4824.png": "/my-profile/static/media/guiness-flint.501e4824.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.b16e783f.js",
     "static/js/2.03d97624.chunk.js",
     "static/css/main.714857c8.chunk.css",
-    "static/js/main.0283e616.chunk.js"
+    "static/js/main.cc8d1bbc.chunk.js"
   ]
 }
