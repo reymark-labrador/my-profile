@@ -14,6 +14,7 @@ import dashboardImg from '../../assets/images/portfolio/dashboard.png';
 import jamesonTapGameImg from '../../assets/images/portfolio/jameson-tap-game.png';
 import robotechImg from '../../assets/images/portfolio/robotech.png';
 import guinnessFlintImg from '../../assets/images/portfolio/guiness-flint.png';
+import blendsBeatsImg from '../../assets/images/portfolio/blends-&-beats.png';
 
 export const Projects: Project[] = [
     {
@@ -33,6 +34,28 @@ export const Projects: Project[] = [
 
         `,
         cta: "https://www.paddysmarkets.com.au/"
+    },
+    {
+        title: "Blends & Beats Website",
+        titleSlug: "blends-&-beats",
+        type: "WEB APP",
+        imgSrc: blendsBeatsImg,
+        imgTitle: "paddys",
+        readMoreLink: "/portfolio/blends-&-beats",
+        shortDescription: "Blends & Beats Website",
+        description: `
+            Built with React & Tailwind CSS<br/><br/>
+
+            The Blends & Beats website features a dynamic mix of content and interactivity, including a brand introduction 
+            that highlights its mission to unite communities through music, a collaborations section showcasing partnerships 
+            with artists and brands, and a dedicated events page promoting past and upcoming cultural gatherings. 
+            It also includes a podcast hub with original episodes covering topics like empowerment and youth culture, a 
+            visual gallery capturing the energy of events, and interactive game experiences to boost engagement. Additionally, 
+            the site supports promotional campaigns such as luxury brand activations—like the Chivas Regal Yacht Party—creating 
+            unique branded moments that blend entertainment and lifestyle.
+
+        `,
+        cta: "https://master.d15fvmndmxorts.amplifyapp.com/"
     },
     {
         title: "Microsite Dashboard",
