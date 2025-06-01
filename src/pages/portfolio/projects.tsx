@@ -76,6 +76,22 @@ export const Projects: Project[] = [
         cta: "https://master.d2wulvurtco9do.amplifyapp.com/"
     },
     {
+        title: "Guinness Flint",
+        titleSlug: "guinness-flint",
+        type: "WEB APP",
+        imgSrc: guinnessFlintImg,
+        imgTitle: "guinness-flint",
+        readMoreLink: "/portfolio/guinness-flint",
+        shortDescription: "Guinness Flint",
+        description: `
+            Built with Nuxt and Three js<br/><br/>
+
+            A gamified microsite where users swipe to trigger 3D hand animations (built with Three.js) striking flint. 
+            If they’re winners, the wood lights up with fire and a prize is revealed. If not, the wood stays unlit—building suspense through immersive interaction.
+        `,
+        cta: "https://guinness-game.d1fpr9wix8r8if.amplifyapp.com/game"
+    },
+    {
         title: "Microsite Dashboard",
         titleSlug: "microsite-dashboard",
         type: "WEB APP",
@@ -109,22 +125,6 @@ export const Projects: Project[] = [
             The frontend is powered by Vue.js and Tailwind CSS, with a Node.js backend handling orders and logistics.
         `,
         cta: "https://nachoskitchen.me/"
-    },
-     {
-        title: "Guinness Flint",
-        titleSlug: "guinness-flint",
-        type: "WEB APP",
-        imgSrc: guinnessFlintImg,
-        imgTitle: "guinness-flint",
-        readMoreLink: "/portfolio/guinness-flint",
-        shortDescription: "Guinness Flint",
-        description: `
-            Built with Nuxt and Three js<br/><br/>
-
-            A gamified microsite where users swipe to trigger 3D hand animations (built with Three.js) striking flint. 
-            If they’re winners, the wood lights up with fire and a prize is revealed. If not, the wood stays unlit—building suspense through immersive interaction.
-        `,
-        cta: "https://guinness-game.d1fpr9wix8r8if.amplifyapp.com/game"
     },
     {
         title: "Jameson Tap Game",
