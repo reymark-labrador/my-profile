@@ -58,6 +58,24 @@ export const Projects: Project[] = [
         cta: "https://master.d15fvmndmxorts.amplifyapp.com/"
     },
     {
+        title: "Beer Market",
+        titleSlug: "beer-market",
+        type: "WEB APP",
+        imgSrc: beerMarketImg,
+        imgTitle: "beer-market",
+        readMoreLink: "/portfolio/beer-market",
+        shortDescription: "The Beer Market",
+        description: `
+            Built with Vue and Tailwind<br/><br/>
+
+            Developed a mobile-first Beer Market webpage focused on showcasing beers from around the world. 
+            The page features interactive tiles for each beer category, revealing a list of beers when clicked. 
+            It also includes an interactive map where users can view and click venue locations to find nearby beer stands, 
+            providing an engaging and intuitive experience optimized for mobile users.
+        `,
+        cta: "https://master.d2wulvurtco9do.amplifyapp.com/"
+    },
+    {
         title: "Microsite Dashboard",
         titleSlug: "microsite-dashboard",
         type: "WEB APP",
@@ -122,24 +140,6 @@ export const Projects: Project[] = [
             Created an interactive game where users first fill out a form, which on submission calls an API 
             to determine if they’re a winner. If selected, the game begins with a tap-to-catch mechanic where 
             players tap falling clovers, combining form-based participation with engaging gameplay.
-        `,
-        cta: ""
-    },
-    {
-        title: "Beer Market",
-        titleSlug: "beer-market",
-        type: "WEB APP",
-        imgSrc: beerMarketImg,
-        imgTitle: "beer-market",
-        readMoreLink: "/portfolio/beer-market",
-        shortDescription: "The Beer Market",
-        description: `
-            Built with Vue and Tailwind<br/><br/>
-
-            Developed a mobile-first Beer Market webpage focused on showcasing beers from around the world. 
-            The page features interactive tiles for each beer category, revealing a list of beers when clicked. 
-            It also includes an interactive map where users can view and click venue locations to find nearby beer stands, 
-            providing an engaging and intuitive experience optimized for mobile users.
         `,
         cta: ""
     },
