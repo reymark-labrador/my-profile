@@ -124,7 +124,7 @@ export const Projects: Project[] = [
             The platform supports scheduled deliveries, secure payments, and includes a user dashboard for managing profiles and subscriptions. 
             The frontend is powered by Vue.js and Tailwind CSS, with a Node.js backend handling orders and logistics.
         `,
-        cta: "https://nachoskitchen.me/"
+        cta: ""
     },
     {
         title: "Jameson Tap Game",
