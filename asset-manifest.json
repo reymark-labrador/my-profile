@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-profile/static/css/main.714857c8.chunk.css",
-    "main.js": "/my-profile/static/js/main.d63c82ff.chunk.js",
-    "main.js.map": "/my-profile/static/js/main.d63c82ff.chunk.js.map",
+    "main.js": "/my-profile/static/js/main.cbf8a30c.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.cbf8a30c.chunk.js.map",
     "runtime-main.js": "/my-profile/static/js/runtime-main.b16e783f.js",
     "runtime-main.js.map": "/my-profile/static/js/runtime-main.b16e783f.js.map",
     "static/js/2.03d97624.chunk.js": "/my-profile/static/js/2.03d97624.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/jameson-tap-game.956fb981.png": "/my-profile/static/media/jameson-tap-game.956fb981.png",
     "static/media/nachos.5d45ca49.png": "/my-profile/static/media/nachos.5d45ca49.png",
     "static/media/paddys.e7b8ed2a.png": "/my-profile/static/media/paddys.e7b8ed2a.png",
+    "static/media/property-management.c424d90f.png": "/my-profile/static/media/property-management.c424d90f.png",
     "static/media/qcomms.8ef4ab91.png": "/my-profile/static/media/qcomms.8ef4ab91.png",
     "static/media/react-auth.a23d9503.png": "/my-profile/static/media/react-auth.a23d9503.png",
     "static/media/robotech.038f9ed7.png": "/my-profile/static/media/robotech.038f9ed7.png",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.b16e783f.js",
     "static/js/2.03d97624.chunk.js",
     "static/css/main.714857c8.chunk.css",
-    "static/js/main.d63c82ff.chunk.js"
+    "static/js/main.cbf8a30c.chunk.js"
   ]
 }
