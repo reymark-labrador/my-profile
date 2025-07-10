@@ -1,5 +1,6 @@
 import { Project } from '../../types/project';
 
+import propertyManagementImg from '../../assets/images/portfolio/property-management.png';
 import paddysImg from '../../assets/images/portfolio/paddys.png';
 import aspMvcImg from '../../assets/images/portfolio/asp-mvc.png';
 import reactAuthImg from '../../assets/images/portfolio/react-auth.png';
@@ -17,6 +18,22 @@ import guinnessFlintImg from '../../assets/images/portfolio/guiness-flint.png';
 import blendsBeatsImg from '../../assets/images/portfolio/blends-&-beats.png';
 
 export const Projects: Project[] = [
+    {
+        title: "Property Management and Listing",
+        titleSlug: "property-management-and-listing",
+        type: "WEB APP",
+        imgSrc: propertyManagementImg,
+        imgTitle: "property management",
+        readMoreLink: "/portfolio/property-management-and-listing",
+        shortDescription: "Property Management and Listing",
+        description: `
+            Built with React, Node JS, Express JS, Tailwind CSS, Shadcn <br/><br/>
+
+            A modern React-based property management and listing application built with TypeScript, 
+            featuring a public property browsing interface and an admin dashboard for property management.
+        `,
+        cta: "https://github.com/reymark-labrador/poptrack-frontend"
+    },
     {
         title: "Paddys Markets",
         titleSlug: "paddys",
